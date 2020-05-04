@@ -103,7 +103,6 @@ public class groupCreator {
         /*This loop goes through the remaining names and then adds one to each 
          * group until all the names are sorted. This is done to make the gorups
          * as even as possible while still placing every name in a group.
-         * 
          */
         while (names.size() > 0) {
             for (i = 0; i < groups.size(); i++) {
@@ -121,8 +120,8 @@ public class groupCreator {
         for (i = 0; i < groups.size(); i++)
             if (groups.get(i).size() == 0) {
                 System.out.println("One of your groups is empty. This is"
-                    + "cbecause you did not enter enough names to fill all"
-                    + "cthe groups.");
+                    + "because you did not enter enough names to fill all"
+                    + "the groups.");
                 break;
             }
     }
